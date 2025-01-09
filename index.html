@@ -7,7 +7,14 @@
 
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
-    <script src="app.js"></script>
-  </body>
+  <div class="app-container">
+    <h1>Grocery List <br />by Lyubomir Lakovski</h1>
+    <div class="input-group">
+      <input type="text" id="item" placeholder="Add item" />
+      <button id="add-btn">Add</button>
+    </div>
+    <ul class="grocery-list" id="list"></ul>
+    <button class="clear-btn" id="clear-btn">Clear All</button>
+  </div>
+  <script src="app.js"></script>
 </html>
